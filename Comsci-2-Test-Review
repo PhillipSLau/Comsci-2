@@ -27,13 +27,25 @@
 4. Should know what sort of problems can result from a recursive algorithm.
 
 4.a
-      Recursion bears substantial overhead. Each time the program calls a method, the system must assign space for all of the method's 
-      local variables and parameters. This can consume considerable memory and requires extra time to manage the additional space.
+       Recursion bears substantial overhead. Each time the program calls a method, the system must assign space for all of the method's 
+       local variables and parameters. This can consume considerable memory and requires extra time to manage the additional space.
       
-      However recursion is good for solving the problems that are inherently recursive.
+       However recursion is good for solving the problems that are inherently recursive.
 
-What is a generic how do you build a generic array?
+5. What is a generic how do you build a generic array?
 
+5.a
+      Generics is the capability to parameterize types. With this capability, you can define a class or a method with generic 
+      types by the compiler. For example, you may define a generic type. From this generic class, you may create a stack object
+      for holding strings and a stack object for holding numbers. Here, strings and numbers are concrete types that replace the
+      generic type. From this generic class, you may create a stack object for holding strings and a stack object for holding 
+      numbers. Here, strings and numbers are concrete types that replace the generic type.
+      
+      Why Generics?
+            The key benefit of generics is to enable errors to be detected at compile time rather than at runtime. A generic
+            class or method permits you to specify allowable types of objects that the class or method may work with. If you 
+            attempt to use the class or method with an imcompatible object, a compile error occurs.
+            
 How do you create list of integers for doubles, or strings.
 
 What does it mean for generic type to be bounded by some super class?
