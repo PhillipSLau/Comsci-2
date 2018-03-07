@@ -1,0 +1,89 @@
+1. What is the output of a recursive method
+
+1.a 
+      The purpose of a recursive method is to reduce the original problem, making it increasingly closer to the base case,
+      until eventually it becomes that case itself.
+
+2. Analyze types of recursion
+
+2.a
+      Recursive Selection Sort
+            Starts by finding the smallest number in the list and swaps it with the first number.
+            Then it ignores the first number and sorts the remaining smaller list recursively.
+            
+      Recursive Binary Search
+            Case 1: If the key is less than the middle element, recursively search the key in the first half of the array.
+            Case 2: If the key is equal to the middle element, the search ends with a match.
+            Case 3: If the key is greater than the middle element, recursively search the key in the second half of the array.
+            
+      Tail Recursion
+            A recursive method is said to be tail recursive if there are no pending operations to be performed on return from a
+            recursive call.
+            
+
+
+3. What a base case looks like when dealing with recursion.
+
+4. Should know what sort of problems can result from a recursive algorithm.
+
+4.a
+      Recursion bears substantial overhead. Each time the program calls a method, the system must assign space for all of the method's 
+      local variables and parameters. This can consume considerable memory and requires extra time to manage the additional space.
+      
+      However recursion is good for solving the problems that are inherently recursive.
+
+What is a generic how do you build a generic array?
+
+How do you create list of integers for doubles, or strings.
+
+What does it mean for generic type to be bounded by some super class?
+
+what is a raw type?
+
+How do you know if a certain generic type is a subclass of another?
+
+What is a wildcard?
+
+code segments for code fill in, code missing statement, statement to complete
+
+type comparable? what does it mean? what is included?
+
+Why do you have a type comparable?
+
+What is a java collections framework?
+
+Which interface does the framework implement?
+
+Should know all methods that are included  with the collections framework interface?
+
+what is a for each loop, and how do you use it?
+
+what is the difference between array list and a linked list?
+
+what are the advantageous and disadvantageous of each?
+
+Code segment involving generics, what is result of running code?
+
+linked list, array list, code segments, need to know syntax errors if program doesn't run
+
+How do you find the largest element in the collection?
+
+which data type implements the collection interface?
+
+How do you store elements in there natural order(alphabetical or descending etc)?
+
+what is in iterator?
+
+should know how to use all methods associated wit concrete types working with list array list, linked list, sets,maps etc.
+
+What are the advent/disadvant. hash set tree hash set link hash set and when do you use each one for each type of application?
+
+How do you perform set operations on sets.
+
+More code segements, sets, and maps
+
+What is a map?
+
+scenario, what data  structure most suitable for that scenario?
+
+Which s best if u want to sort data, access data in order it was submitted? know which structure is releveant and which is best in certain circumstances.
